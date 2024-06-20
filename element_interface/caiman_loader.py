@@ -79,7 +79,7 @@ class CaImAn:
         else:
             raise FileNotFoundError(
                 "No CaImAn analysis output file found at {}"
-                " containg all required fields ({})".format(
+                " containing all required fields ({})".format(
                     caiman_dir, _required_hdf5_fields
                 )
             )
